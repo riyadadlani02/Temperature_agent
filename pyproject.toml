@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "uagents"
+version = "1.0"
+description = "uAgents is a library developed by Fetch.ai that allows for creating autonomous AI agents in Python"
+authors = ["uFetchai"]
+license = "Apache License 2.0."
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.8.6"
+api-key-client = "^0.1.10"
+
+[tool.poetry.group.dev.dependencies]
+location = "^0.0.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
